@@ -1,0 +1,76 @@
+.parent-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child1-div{
+    height: 45%;
+    padding: 0px 200px 0px 200px;
+    width: 100%;
+}
+
+.child2-div{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    /* margin-left: auto; */
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-planned{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.parent-image{
+    height: 70%;
+    width: 100%;
+}
+
+.plan{
+    font-size: 25px;
+    font-weight: normal;
+    color: #2f5572cf;
+    font-family: sans-serif;
+}
+
+.paragraph-mssg{
+    color: #dfb080;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.child2-img{
+    width: 37%;
+    height: 100%;
+}
+
+.child2-text{
+    width: 60%;
+    text-align: left;
+    height: 100%;
+}
+
+.child2-heading{
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #2f5572cf;
+}
+
+.child2-paragraph{
+    font-size: 18px;
+}
+
+
