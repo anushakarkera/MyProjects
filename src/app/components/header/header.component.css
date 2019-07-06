@@ -1,0 +1,34 @@
+.header
+{
+    background-color: #56758c;
+}
+
+ul{
+    text-decoration: none;
+    margin: 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: 60%;
+    margin-right: 15%;
+    padding: 10px;
+}
+
+li{
+   height: 30px;
+    display: inline-block;
+    flex: 1 1 0;
+    text-align: center;
+
+    
+    padding: 5px;
+}
+li:hover{
+    background-color: #2f5572;
+}
+
+a{
+    color: #c0c9d0;
+    text-decoration: none;
+}
