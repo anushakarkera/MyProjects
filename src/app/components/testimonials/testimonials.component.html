@@ -10,19 +10,19 @@
     <div class="container-body">
         <div class="parent-card" *ngFor="let i of cards">
         <div class="profile-header">
-            <div>
+            <div class="profile-img-parent">
                <img class="profile-img" src="{{i.img}}">
             </div>
             <div>
-              <div>
+              <div class="profile-name">
               {{i.name}}
               </div>
-              <div>
+              <div class="profile-text">
                   {{i.text}}
               </div>
             </div>
         </div>
-            <div>
+            <div class="profile-content">
                 {{i.content}}
             </div>
         </div>

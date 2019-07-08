@@ -31,3 +31,9 @@
     height: 600px;
     background-image: url("../../../assets/images/testimonials-bg.jpg")
 }
+.footer-parent{
+    width: 100%;
+    /* padding: 10px; */
+    height: 50px;
+    background-color: #2f5572;
+}

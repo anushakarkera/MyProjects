@@ -23,28 +23,69 @@
 .testimonials-container{
     display: flex;
     flex-direction: column;
-    height: 200;
-    /* justify-content: space-between; */
+   
     height: 100%;
-    /* justify-content: space-around; */
+    /* justify-content: space-between; */
     width: 100%;
+    padding: 0px 250px 60px;
+    justify-content: space-between;
 }
+
 .container-body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 75%;
-    width: 100%;
+    height: 65%;
+   
+    grid-gap: 3em;
 }
 
 .profile-header{
     text-align: center;
+        /* height: 50%; */
+    /* width: 160px; */
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    margin-left: auto;
+    transform: translate(-50%,-50%);
+    margin-right: auto;
 }
 
 .parent-card{
-    
-
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .profile-img{
     border-radius: 80px;
+    border: 5px white solid;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-content{
+    padding: 135px 35px 0px;
+    height: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #000000b3;
+    text-align: justify;
+}
+
+.profile-name{
+    color: #2f5572;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile-text{
+    color: #e29b3e;
+}
+
+.profile-img-parent{
+    width: 150px;
+    height: 150px;
 }
