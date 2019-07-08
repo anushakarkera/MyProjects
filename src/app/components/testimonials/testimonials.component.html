@@ -1,0 +1,30 @@
+<div class="testimonials-container">
+    <div class="container-header">
+        <div>
+            <img class="comment-img" src="../../../assets/images/icons/comment.svg">
+        </div>
+        <div class="real-testimonials">
+            &nbsp;&nbsp;Real <b>Testimonials</b>
+        </div>
+    </div>
+    <div class="container-body">
+        <div class="parent-card" *ngFor="let i of cards">
+        <div class="profile-header">
+            <div>
+               <img class="profile-img" src="{{i.img}}">
+            </div>
+            <div>
+              <div>
+              {{i.name}}
+              </div>
+              <div>
+                  {{i.text}}
+              </div>
+            </div>
+        </div>
+            <div>
+                {{i.content}}
+            </div>
+        </div>
+    </div>
+</div>

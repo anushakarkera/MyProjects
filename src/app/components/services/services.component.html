@@ -1,1 +1,23 @@
-<p>services works!</p>
+<div class="service-container">
+    <div class="service-header">
+        <div class="star">
+            <img class="star-icon" src="../../../assets/images/icons/star.svg">
+        </div>
+        <div class="ourfeatures">
+            <span style="color:#f1f2f35e ">&nbsp;&nbsp;Our </span><b><span style="color: #ffffffb5;">Features</span></b>
+        </div>
+    </div>
+    <div class="service-body">
+        <div class="parent-body" *ngFor="let e of servicesContent">
+            <div class="service-icon">
+                <img class="body-icons" src="{{e.img}}">
+            </div>
+            <div class="service-contents">
+                <h3>{{e.header}}</h3>
+                <div class="content">
+                    {{e.body}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -17,6 +17,17 @@
 
 .our-begining-container{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     padding: 40px 200px 40px 200px;
+}
+
+.services-parent{
+    background-color: #2f5572;
+    height: 500px;
+    padding: 30px 400px 0px;
+}
+
+.testimonial-parent{
+    height: 600px;
+    background-image: url("../../../assets/images/testimonials-bg.jpg")
 }
