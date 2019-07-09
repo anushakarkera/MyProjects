@@ -1,11 +1,11 @@
 .comment-img{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 
 .real-testimonials{
     color: #2f5572;
-    font-size: 25px;
+    font-size: 35px;
     font-family: sans-serif;
     font-style: normal;
 }
@@ -69,6 +69,7 @@
     padding: 135px 35px 0px;
     height: 100%;
     font-size: 16px;
+    line-height: 1.4;
     font-family: sans-serif;
     font-style: normal;
     color: #000000b3;

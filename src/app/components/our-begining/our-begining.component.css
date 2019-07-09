@@ -22,7 +22,7 @@
 }
 
 .trip-planned{
-    height: 30%;
+    height: 25%;
     width: 100%;
     text-align: center;
 }
@@ -51,9 +51,9 @@
 
 
 .child2-img{
-    width: 27%;
+    width: 30%;
     height: 100%;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 
 .child2-text{
@@ -67,10 +67,11 @@
     font-family: sans-serif;
     font-weight: normal;
     color: #2f5572cf;
+    font-size: 40px;
 }
 
 .child2-paragraph{
-    font-size: 18px;
+    font-size: 20px;
     color: #00000091;
 }
 

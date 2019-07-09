@@ -32,7 +32,7 @@
 }
 .section2-sub1{
     height: 50%;
-    color: #dae0e4;
+    color: #eeeff1;
     /* padding: 10px; */
     font-size: 20px;
     margin-left: 20px;
@@ -50,6 +50,7 @@
     /* padding: 17px; */
     /* font-size: 10px; */
     /* margin: auto; */
+    width: 180px;
     color: floralwhite;
-    background-color: #f39a27a1;
+    background-color: #e09d47fa;
 }

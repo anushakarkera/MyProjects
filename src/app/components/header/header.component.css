@@ -16,19 +16,24 @@ ul{
 }
 
 li{
-   height: 30px;
+   height: 35px;
     display: inline-block;
-    flex: 1 1 0;
-    text-align: center;
 
-    
+    text-align: center;
     padding: 5px;
 }
-li:hover{
+/* li:hover{
     background-color: #2f5572;
-}
+} */
 
 a{
-    color: #c0c9d0;
+    color: #eeeff1;
     text-decoration: none;
+}
+
+.header-btn{
+    background-color: #2f5572;
+    border: none;
+    color: white;
+    width: 120px;
 }

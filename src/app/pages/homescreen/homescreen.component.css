@@ -3,7 +3,7 @@
     background-image: url(../../../assets/images/hero--large.jpg);
     background-size: 100% 100%;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -11,14 +11,14 @@
 .parent-div{
     flex: 1;
     position: relative;
-    padding: 50px;
+    padding: 70px;
     text-align: center;
 }
 
 .our-begining-container{
     width: 100%;
     height: 1000px;
-    padding: 40px 200px 40px 200px;
+    padding: 40px 15% 40px 15%;
 }
 
 .services-parent{
@@ -29,11 +29,33 @@
 
 .testimonial-parent{
     height: 600px;
-    background-image: url("../../../assets/images/testimonials-bg.jpg")
+    background-image: url("../../../assets/images/testimonials-bg.jpg");
+    background-size: 100% 100%;
 }
 .footer-parent{
     width: 100%;
     /* padding: 10px; */
     height: 50px;
     background-color: #2f5572;
+}
+
+.clear-escapes{
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    height: 80px;
+    width: 160px;
+    color: #c0c9cb;
+    padding: 15px;
+    line-height: 0.9;
+    font-size: 20px;
+    background-color: #2f5572;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.darkblue-line{
+    background-color: #446782;
+    height: 10px;
 }
